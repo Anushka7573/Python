@@ -1,5 +1,10 @@
-# program to take age as input and print value entered and data type 
+# take input and print positive if num is greater than zero and so on 
 
-age = input("Enter your age : ")
-print("value entered is :",age)
-print("Data type is :", type(age))
+num = int(input("Enter a number :"))
+
+if(num>0):
+    print("Positive")
+elif(num==0):
+    print("Zero")
+else:
+    print("Negative")

@@ -1,12 +1,20 @@
-# question on slicing
-# take input and print middle 3 charaters, last 2 character
+# take 3 food and store in list, pribnt list and length
 
-# green 5/2
+food1 = input("Enter food1:")
+food2 = input("Enter food2:")
+food3 = input("Enter food3:")
 
-str= input("Enter the value :")
-mid = len(str)//2
-output1 = str[mid-1 : mid+2]
-print(output1)
+# method1 list form
+foodlist =[food1,food2,food3]
 
-output2 = str[-2:]
-print(output2)
+print(foodlist)
+print(len(foodlist))
+
+# method2 list form
+foodlist=[]
+foodlist.append(food1)
+foodlist.append(food2)
+foodlist.append(food3)
+
+print(foodlist)
+print(len(foodlist))
