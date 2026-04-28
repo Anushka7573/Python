@@ -1,10 +1,15 @@
-# Open a file called report.txt in write mode.
+# create a class laptop with attributes: brand, RAM, price. create 2 object with different values.
 
-file=open("report.txt","w")
-file.write("Sab badiya hai")
+class laptop:
+    brand="default"
+    RAM="default 8GB"
+    price="default 1 lakh"
 
+laptop1=laptop()
+laptop1.brand="mackbook"
+laptop1.RAM="16GB"
+print("laptop1 brand-",laptop1.brand)
 
-# appendens
-
-file = open("report.txt","a")
-file.write(" duniya mast hai")
+laptop2=laptop()
+laptop2.brand="lenova"
+print("laptop2 brand-",laptop2.brand)

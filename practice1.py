@@ -1,13 +1,7 @@
-# write a program to read a text from a given file certificcate.txt
-#  and find
-#  whether it contains the word live.
+# create a class car with attribute brand = "scorpio".
 
-file= open("certificate.txt","r")
-dataofFile= file.read()
+class car:
+    brand = "scorpio"
 
-dataofFile= dataofFile.lower()
-
-if"live" in dataofFile:
-    print("Yes Live word is present in the file")
-else:
-    print("No")
+obj1 = car()
+print("brand name is -",obj1.brand)    
