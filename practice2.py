@@ -1,6 +1,10 @@
-# write a function square(num) that returns the square of a number.
+# Open a file called report.txt in write mode.
 
-def square(num=10):
-    return num**2
+file=open("report.txt","w")
+file.write("Sab badiya hai")
 
-print(square(3))
+
+# appendens
+
+file = open("report.txt","a")
+file.write(" duniya mast hai")

@@ -1,23 +1,13 @@
-# write a function named welcome_message() that prints " welcome to python programming!" three times.
+# write a program to read a text from a given file certificcate.txt
+#  and find
+#  whether it contains the word live.
 
-# simple Func Defination without any param
-def welcome_message():
-    print("welcome to python course by anushka")
-    print("Line 2")
+file= open("certificate.txt","r")
+dataofFile= file.read()
 
-welcome_message()  # function is being #called 
-welcome_message()  # function is being #called 
-welcome_message()  # function is being #called 
+dataofFile= dataofFile.lower()
 
-
-# define a function insipre() that prints a motivational quote with your name.
-
-# FUNCTION DEFINATION , WE HAVE ONLY DEFINED THE FUNCTION HERE
-def inspire():
-    print("you are the master of your destiny : anushka prajapati")
-inspire()    
-
-def IamBest():
-    print("Just a Trial Function")
-
-IamBest()    
+if"live" in dataofFile:
+    print("Yes Live word is present in the file")
+else:
+    print("No")
