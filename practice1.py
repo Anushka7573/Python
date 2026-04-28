@@ -1,10 +1,23 @@
-# take input and print positive if num is greater than zero and so on 
+# write a function named welcome_message() that prints " welcome to python programming!" three times.
 
-num = int(input("Enter a number :"))
+# simple Func Defination without any param
+def welcome_message():
+    print("welcome to python course by anushka")
+    print("Line 2")
 
-if(num>0):
-    print("Positive")
-elif(num==0):
-    print("Zero")
-else:
-    print("Negative")
+welcome_message()  # function is being #called 
+welcome_message()  # function is being #called 
+welcome_message()  # function is being #called 
+
+
+# define a function insipre() that prints a motivational quote with your name.
+
+# FUNCTION DEFINATION , WE HAVE ONLY DEFINED THE FUNCTION HERE
+def inspire():
+    print("you are the master of your destiny : anushka prajapati")
+inspire()    
+
+def IamBest():
+    print("Just a Trial Function")
+
+IamBest()    
